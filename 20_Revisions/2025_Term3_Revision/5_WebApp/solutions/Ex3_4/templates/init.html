@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Word Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .game-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .hint {
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-size: 18px;
+            color: #2c5282;
+            border-left: 4px solid #3182ce;
+        }
+
+        .form-group {
+            margin: 20px 0;
+        }
+        input[type="text"] {
+            padding: 12px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            width: 50px;
+            text-align: center;
+            
+        }
+        input[type="text"]:focus {
+            border-color: #3182ce;
+            outline: none;
+        }
+        button {
+            background-color: #3182ce;
+            color: white;
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #2c5282;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>🎯 Guess the Word Game</h1>
+        
+        <div class="hint">
+            <strong>Enter the length of word to guess(1-11) or 0 for random length:</strong>
+        </div>
+        <form action="{{ url_for('home')}}" method="POST">
+            <div class="form-group">
+                <input type="text" 
+                       name="length" 
+                       placeholder="2" 
+                       required 
+                       maxlength="2"
+                       value = 0
+                       autocomplete="off">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+</body>
+</html>

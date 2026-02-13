@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Result - Guess the Word</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .result-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .win {
+            border-top: 6px solid #48bb78;
+        }
+        .lose {
+            border-top: 6px solid #f56565;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .win h1 {
+            color: #38a169;
+        }
+        .lose h1 {
+            color: #e53e3e;
+        }
+        .emoji {
+            font-size: 64px;
+            margin: 20px 0;
+        }
+        .message {
+            font-size: 20px;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+        .win .message {
+            color: #2d3748;
+        }
+        .lose .message {
+            color: #2d3748;
+        }
+        .word-reveal {
+            background-color: #f7fafc;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #2d3748;
+            border: 2px solid #e2e8f0;
+        }
+        .attempts-info {
+            margin: 20px 0;
+            font-size: 16px;
+            color: #666;
+        }
+        .buttons {
+            margin-top: 30px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 5px;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .play-again {
+            background-color: #3182ce;
+            color: white;
+        }
+        .play-again:hover {
+            background-color: #2c5282;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-container {{ result }}">
+        {% if result == 'win' %}
+            <h1>🎉 Congratulations!</h1>
+            <div class="emoji">🏆</div>
+            <div class="message">
+                Excellent work! You guessed the word correctly!
+            </div>
+            <div class="word-reveal">{{ target_word }}</div>
+            <div class="attempts-info">
+                You solved it in {{ attempts }} attempt{{ 's' if attempts != 1 else '' }}!
+            </div>
+        {% else %}
+            <h1>😔 Game Over</h1>
+            <div class="emoji">💭</div>
+            <div class="message">
+                Don't worry! You gave it a great try, but you've used all your attempts.
+            </div>
+            <div class="message">
+                The correct word was:
+            </div>
+            <div class="word-reveal">{{ target_word }}</div>
+            <div class="attempts-info">
+                You used all {{ attempts }} attempts. Better luck next time!
+            </div>
+        {% endif %}
+        
+        <div class="buttons">
+            <a href="/reset" class="button play-again">Play Again</a>
+        </div>
+    </div>
+</body>
+</html>

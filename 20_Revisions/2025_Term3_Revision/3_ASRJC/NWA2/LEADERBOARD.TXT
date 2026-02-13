@@ -1,0 +1,13 @@
+asrjc-01 | Team1 | Student1 | 1300, 750, 2300, 1000, 3460, 4895
+asrjc-02 | Team1 | Student2 | 2545, 888, 1590, 7000, 3000, 3278
+asrjc-03 | Team1 | Student3 | 2000, 1000, 800, 700, 1950, 1500
+asrjc-04 | Team1 | Student4 | 3470, 500, 1200, 900, 0, 1200
+asrjc-05 | Team2 | Student5 | 2800, 650, 1740, 2000, 1000, 1200
+asrjc-06 | Team2 | Student6 | 1300, 1350, 1900, 800, 0, 500
+asrjc-07 | Team2 | Student7 | 2750, 2500, 1500, 895, 1490, 0
+asrjc-08 | Team2 | Student8 | 4760, 1200, 900, 1000, 0, 0
+asrjc-09 | Team3 | Student9 | 2000, 1245, 850, 4210, 0, 0
+asrjc-10 | Team3 | Student10 | 3280, 1990, 1100, 0, 0, 0
+asrjc-11 | Team3 | Student11 | 2860, 1600, 1455, 1789, 1000, 1500
+asrjc-12 | Team3 | Student12 | 4220, 800, 1500, 1980, 0, 500
+asrjc-13 | Team3 | Mai Low Peng | 9999, 9999, 9999, 9999, 9999, 9999

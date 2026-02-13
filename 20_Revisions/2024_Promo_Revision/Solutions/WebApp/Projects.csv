@@ -1,0 +1,12 @@
+ProjectID,Project Title,Start Date,End Date,EmployeeID,EmployeeName,Skill ID,Skill Name,Cost per Hour($),Hours Worked
+1,New roof,21/2/20,1/4/20,1,Smith,1,Carpentry,40,45
+1,New roof,21/2/20,1/4/20,2,Jones,1,Carpentry,40,30
+1,New roof,21/2/20,1/4/20,3,Roberts,2,Plumbing,45,12
+2,Pool work,10/3/20,23/7/20,4,Harrison,3,Electrical,50,15
+2,Pool work,10/3/20,23/7/20,5,Harris,4,Plastering,42,20
+2,Pool work,10/3/20,23/7/20,6,Patel,5,Tiling,30,35
+2,Pool work,10/3/20,23/7/20,7,Staples,5,Tiling,30,42
+3,Kitchen reno,11/1/20,10/10/20,2,Jones,1,Carpentry,40,20
+3,Kitchen reno,11/1/20,10/10/20,5,Harris,4,Plastering,42,14
+3,Kitchen reno,11/1/20,10/10/20,4,Harrison,3,Electrical,50,30
+3,Kitchen reno,11/1/20,10/10/20,8,Charles,5,Tiling,30,17

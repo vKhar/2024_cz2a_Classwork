@@ -4,6 +4,8 @@
 
 # Ignore Google Docs files
 *.gdoc
+*.gsheet
+*.gslides
 
 # Ignore Windows desktop.ini files
 desktop.ini

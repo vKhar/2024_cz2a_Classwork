@@ -1,0 +1,47 @@
+#An incomplete server program.
+#Paste the following code to a new Python .py file.
+#Fill in the blanks.
+
+import socket
+import random
+
+WORDS = <fill in the blank>
+
+HOST = '127.0.0.1'
+PORT = 65432
+
+server_socket = socket.socket()
+server_socket.bind((HOST, PORT))
+server_socket.listen()
+
+conn, addr = <fill in the blank>
+
+secret_word = random.choice(WORDS)
+tries = 3
+conn.sendall(b"Welcome to Guess-The-Word! You have 3 tries.\n")
+
+while True:
+    guess = <fill in the blank>
+
+    print(f"Received guess: {guess}")
+
+    if <fill in the blank>:
+        conn.sendall(b"Correct! You guessed the word.\n")
+        <fill in the blank>
+    else:
+        tries = <fill in the blank>
+
+        if tries == <fill in the blank>:
+            conn.sendall(f"Out of tries. The word was '{secret_word}'.\n".encode())
+            <fill in the blank>
+
+        elif <fill in the blank>:
+            hint = "Your guess is alphabetically before the word."
+        
+		else:
+            hint = "Your guess is alphabetically after the word."
+        
+        conn.sendall(<fill in the blank>)
+
+<fill in the blank>
+server_socket.close()

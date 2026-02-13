@@ -1,0 +1,33 @@
+File 1:
+--
+Range Name: Takka Range
+Address: 1 Botak Hill, S(908449)
+Contact: 63165432
+Unit: 1CMD/Bravo
+Commanding Officer: CPT Lim Boey Seng
+Date, Start_Time, Detail_Number, Shooter_Number, Score
+03/12/2019, 09:00, 1, 1, 10
+03/12/2019, 09:00, 1, 2, 0
+03/12/2019, 09:00, 1, 3, 2
+03/12/2019, 09:00, 1, 4, 14
+:
+03/12/2019, 09:30, 2, 1, 12
+03/12/2019, 09:30, 2, 2, 10
+
+--
+File 2:
+
+Range Name: Salah Range 2
+Address: 1 Salah Ring Rd, S(507087)
+Contact: 66165431
+Unit: 9MED/Charlie
+Commanding Officer: CPT Maverick Goh
+Date, Start_Time, Detail_Number, Shooter_Number, Score
+01/10/2019, 14:00, 1, 1, 14
+01/10/2019, 14:00, 1, 2, 2
+01/10/2019, 14:00, 1, 3, 14
+:
+01/10/2019, 17:45, 13, 1, 0
+01/10/2019, 17:45, 13, 2, 14
+
+--

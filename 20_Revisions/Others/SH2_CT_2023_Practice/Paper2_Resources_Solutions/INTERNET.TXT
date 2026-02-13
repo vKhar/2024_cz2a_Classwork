@@ -1,0 +1,3 @@
+answers.all,There is No answers
+ri.ir, Riffles Institution
+tuition.free,Nothing is free

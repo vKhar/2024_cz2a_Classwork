@@ -1,0 +1,13 @@
+P001|Apple|Fruit|0.80|100
+P002|Milk|Dairy|2.50|60
+P003|Bread|Bakery|1.80|80
+P004|Shampoo|Toiletries|5.90|40
+P005|Chicken Breast|Meat|4.20|50
+P006|Banana|Fruit|0.50|120
+P007|Orange|Fruit|0.70|90
+P008|Cheese|Dairy|3.80|55
+P009|Yogurt|Dairy|1.20|70
+P010|Toilet Paper|Toiletries|6.50|30
+P011|Toothpaste|Toiletries|2.90|45
+P012|Croissant|Bakery|2.20|65
+P013|Beef Steak|Meat|6.80|35

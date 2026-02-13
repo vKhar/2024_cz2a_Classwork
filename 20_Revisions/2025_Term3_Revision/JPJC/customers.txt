@@ -1,0 +1,5 @@
+C001|Alice Tan|alice.tan@example.com
+C002|Benjamin Lee|benjamin.lee@example.com
+C003|Cheryl Ng|cheryl.ng@example.com
+C004|David Lim|david.lim@example.com
+C005|Evelyn Goh|evelyn.goh@example.com

@@ -1,0 +1,5 @@
+cmn.com,<html>CMN the only real news </html>
+njc.sch.sg,Service with Honour
+chit.chat.org,<b>Talking AI &lt; <b>
+farm.net,"apple,oranges,pears"
+tt.t,test

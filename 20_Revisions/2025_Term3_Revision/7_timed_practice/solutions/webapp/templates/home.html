@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Colors</title>
+    <style>
+        .red {
+            background-color: red;
+        }
+        .blue {
+            background-color: blue;
+        }
+        .white {
+            background-color: white;
+        }
+
+        table{
+            margin: auto;
+            table-layout: fixed;
+            align-items: center;
+
+        }
+
+        td, thead {
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin: auto;
+        }
+        .prompt{
+            margin: 2em auto;
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>0</th>
+                <th>1</th>
+                <th>2</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in tubes %}
+            <tr>
+                {% for cell in row %}
+                <td class="{{ 'red' if cell == 'R' else 'blue' if cell == 'B' else 'white' }}"></td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+        {% if status == "invalid" %}
+        <div style="text-align: center; background-color: red; color: white; font-size: 2em; margin: auto; width: 20%; padding: 1em; border-radius: 1em;">
+            Invalid Move
+        </div>
+        {% elif status == "won" %}
+        <div style="text-align: center; background-color: green; color: white; font-size: 2em; margin: auto; width: 20%; padding: 1em; border-radius: 1em;">
+            Congratulations! You won!
+        </div>
+        {% endif %}
+
+    
+
+        <form action="/move" method="post" >
+            <div class="prompt">
+                <label for="source">Source</label>
+                <input type="number" id="source" name="source" min="0" max="2">
+                <label for="destination">Destination</label>
+                <input type="number" id="destination" name="destination" min="0" max="2">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        
+
+
+
+</body>
+</html>
+

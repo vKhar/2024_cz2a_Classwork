@@ -1,0 +1,11 @@
+Name,Phone,Address
+Silas,98510291,7497 Petterle Park
+Alfy,91340416,88091 Merrick Road
+Nora,93682238,6338 Cottonwood Alley
+Ericka,95099507,0 Vernon Terrace
+Javier,99121258,7 Continental Lane
+Kyle,92468341,93273 Division Park
+Deina,90242588,3 Dryden Lane
+Eleonore,99474577,881 Monica Terrace
+Obed,93230975,633 Porter Street
+Henrie,91846808,420 Vernon Lane

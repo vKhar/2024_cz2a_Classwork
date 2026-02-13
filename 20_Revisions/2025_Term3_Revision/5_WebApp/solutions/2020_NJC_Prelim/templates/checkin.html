@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- meta data-->
+<title> product catalog </title>
+<style>
+    form {
+        width: 40%;
+        margin:  2em auto;
+        border: black 1px solid;
+        font-family: fantasy;
+    }
+    .row {
+        display: flex;
+        padding: 0.5em;
+        justify-content: space-evenly;
+    }
+    label {
+        margin:0.5em;
+        width:30%
+    }
+    input {
+        margin:0.5em;
+        width: 40%
+    }
+
+</style>
+</head>
+
+<body>
+
+<form action="/check_in/{{ LocationID }}" method="POST" >
+    <div class="row"> {{ LocationID }}</div>
+    <div class="row">
+        <label>Name </label> <input name="Name" type="text"/>       
+    </div>
+    <div class="row">
+        <label>NRIC </label> <input name="NRIC" type="text"/>
+    </div>
+    <div class="row">
+        <label> Contact Number </label> <input name="Contact" type="text" />
+    </div>
+    <div class="row">
+        <button type="submit" /> Check In </button>
+        <button type="reset" /> Cancel </button>
+    </div>
+    
+</form>
+       
+</body>
+
+
+
+</html>
