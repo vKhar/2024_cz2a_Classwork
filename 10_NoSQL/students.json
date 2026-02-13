@@ -1,0 +1,46 @@
+[
+{
+    "name": "John",
+    "class": "18S01",
+    "hobbies": [
+        "running",
+        "kayaking",
+        "gaming"
+    ],
+    "PM": {"name":"Chan",
+           "age": 34
+    }
+},
+
+{
+    "name": "Mary",
+    "class": "18S02",
+    "hobbies": [
+        "chilling",
+        "gaming"
+    ],
+    "PM": {"name":"Chan",
+        "age": 34
+    }
+},
+{
+    "name": "Joe",
+    "class": "18S01",
+    "hobbies": [
+        "running",
+        "bowling",
+        "chess"
+    ],
+    "PM": {"name":"Chow",
+        "age": 29
+    }
+},
+{
+    "name": "Lex",
+    "class": "18S02",
+    "PM": {"name":"Chow",
+           "age": 29
+    }
+}
+]
+    

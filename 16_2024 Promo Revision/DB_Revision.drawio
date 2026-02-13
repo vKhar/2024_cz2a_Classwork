@@ -1,0 +1,132 @@
+<mxfile host="Electron" modified="2024-09-13T06:19:27.665Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="BtPDIHgEAmuh910jl0Qh" version="24.6.4" type="device">
+  <diagram name="Page-1" id="MYWU0XKI36JnjGIeXibm">
+    <mxGraphModel dx="852" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="ePdMJCXXo1FHC0-xQAcs-3" target="ePdMJCXXo1FHC0-xQAcs-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="195" />
+              <mxPoint x="220" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-3" value="Student" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-4" value="+ StudentName&lt;div&gt;+ &lt;u&gt;NRIC&lt;/u&gt;&lt;/div&gt;&lt;div&gt;+ IndexNo&lt;/div&gt;&lt;div&gt;+ Level&lt;/div&gt;&lt;div&gt;+ SchoolCode*&lt;/div&gt;&lt;div&gt;+ Class&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ePdMJCXXo1FHC0-xQAcs-3">
+          <mxGeometry y="50" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-7" value="Exam" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-8" value="+ Subject&lt;div&gt;+ &lt;u&gt;SubjectCode&lt;/u&gt;&lt;/div&gt;&lt;div&gt;+ &lt;u&gt;Paper&lt;/u&gt;&lt;/div&gt;&lt;div&gt;+ Mode&lt;/div&gt;&lt;div&gt;+ Date&lt;/div&gt;&lt;div&gt;+ Time&lt;/div&gt;&lt;div&gt;+ Duration&lt;/div&gt;&lt;div&gt;+ SchoolCode*&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ePdMJCXXo1FHC0-xQAcs-7">
+          <mxGeometry y="50" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-19" value="School" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-20" value="+&amp;nbsp;&lt;u&gt;SchoolCode&lt;/u&gt;&lt;div&gt;+ CentreName&lt;/div&gt;&lt;div&gt;+ Address&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ePdMJCXXo1FHC0-xQAcs-19">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="ePdMJCXXo1FHC0-xQAcs-4" target="ePdMJCXXo1FHC0-xQAcs-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="410" />
+              <mxPoint x="140" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="ePdMJCXXo1FHC0-xQAcs-8" target="ePdMJCXXo1FHC0-xQAcs-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="410" />
+              <mxPoint x="300" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-23" value="StudentExam" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-24" value="&lt;u&gt;+ NRIC*&lt;/u&gt;&lt;div&gt;&lt;u&gt;+ SubjectCode*&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;+ Paper*&lt;/u&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ePdMJCXXo1FHC0-xQAcs-23">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="ePdMJCXXo1FHC0-xQAcs-8" target="ePdMJCXXo1FHC0-xQAcs-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-27" value="(c) At the time of data entry, these values are not yet available. This can be avoided by implementing database constraints to prevent NULL values from being entered" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-29" value="&lt;font color=&quot;#ff0000&quot;&gt;Note that the ERD and table definitions are not based on A-level convention&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-30" value="Question 1 Sample Solution" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=5" vertex="1" parent="1">
+          <mxGeometry x="260" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-32" value="Question 2 Sample Solution" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=5" vertex="1" parent="1">
+          <mxGeometry x="205" y="550" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-33" value="(a) The PK for this table will need to be (CallNo, BorrowerID, LoanDate) for each record to be identified uniquely. Anomalies can arise when&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;-&amp;nbsp; borrower registers his name, email in the library but has not borrow any book, the PK cannot be created.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- a borrower has loaned out more than 1 book and needs to change his email address. Only 1 of the record&#39;s email is updated successfully, resulting in inconsistemt data.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- A book has more than 1 author.&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="ePdMJCXXo1FHC0-xQAcs-34" target="ePdMJCXXo1FHC0-xQAcs-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-34" value="Book" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="920" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-35" value="+ &lt;u&gt;CallNo&lt;/u&gt;&lt;div&gt;+ Title&lt;/div&gt;&lt;div&gt;+ PublisherID*&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ePdMJCXXo1FHC0-xQAcs-34">
+          <mxGeometry y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-36" value="Publisher" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="920" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-37" value="+&lt;u&gt; PublisherID&lt;/u&gt;&lt;div&gt;+ PublisherName&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ePdMJCXXo1FHC0-xQAcs-36">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-38" value="Borrower" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="730" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-39" value="+ &lt;u&gt;BorrowerID&lt;/u&gt;&lt;div&gt;+ BorrowerName&lt;/div&gt;&lt;div&gt;+ Email&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ePdMJCXXo1FHC0-xQAcs-38">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-41" value="Loan" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="730" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-42" value="+ BorrowerID&lt;div&gt;+ CallNo&lt;/div&gt;&lt;div&gt;+ LoanDate&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ePdMJCXXo1FHC0-xQAcs-41">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="ePdMJCXXo1FHC0-xQAcs-37" target="ePdMJCXXo1FHC0-xQAcs-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="1000" />
+              <mxPoint x="230" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="ePdMJCXXo1FHC0-xQAcs-42" target="ePdMJCXXo1FHC0-xQAcs-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-46" value="Author" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="730" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-47" value="+ AuthorID&lt;div&gt;+ AuthorName&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ePdMJCXXo1FHC0-xQAcs-46">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="ePdMJCXXo1FHC0-xQAcs-48" target="ePdMJCXXo1FHC0-xQAcs-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-48" value="BookAuthor" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="915" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-49" value="+ &lt;u&gt;CallNo*&lt;/u&gt;&lt;div&gt;&lt;u&gt;+ AuthorID*&lt;/u&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ePdMJCXXo1FHC0-xQAcs-48">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ePdMJCXXo1FHC0-xQAcs-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="ePdMJCXXo1FHC0-xQAcs-49" target="ePdMJCXXo1FHC0-xQAcs-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

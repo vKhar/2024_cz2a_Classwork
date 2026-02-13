@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <!-- meta data-->
+        <title> product catalog </title>
+        <style>
+            table {
+                width: 50%;
+                margin: 1em auto;
+                border-spacing: 2em;
+            }
+            img {
+                width: 50%;
+            }
+
+            .scroll {
+                height: 450px;
+                max-height: 450px;
+                overflow-y: scroll;
+            }
+            
+            .footer {
+                background-color: #efefef;
+                text-align: center;
+            }
+            .menu{
+                display:flex;
+                background-color: black;
+                justify-content:center;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 0.5em;
+                margin: auto;
+         
+            }
+            .menu-item{
+                font-size: 1em;
+                padding: 0.5em;
+                color: white;
+                margin: auto 1em;
+                border: white 0.1em solid;
+                border-radius: 0.5em;
+                background-color:black;
+            }
+            .menu a {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="menu">
+            <a class="menu-item" href="/"> Home</a>
+            <a class="menu-item" href="/form">Add Product</a>
+        </div>
+        <div class="scroll">
+        <table>
+            {% for product in my_list%}
+            <tr>
+
+            <td>
+                <b>{{ product[0] }}</b>
+                <ul>
+                <li>
+                {{ product[1] }}
+                </li>
+                <li>
+                ${{ product[2] }}
+                </li>
+                </ul>
+
+            </td>
+            <td>
+                <img src="/static/images/{{ product[3] }}" alt="{{ product[3] }}" />
+            </td>
+            </tr>
+            {% endfor %}
+
+        </table>
+        </div>
+        <div class="footer">
+            Copyright 2020 © National Junior College, All Rights Reserved
+        </div>
+    </body>
+</html>

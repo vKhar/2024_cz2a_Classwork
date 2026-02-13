@@ -1,0 +1,5 @@
+name, age, IP,Quiz1,Quiz2,quiz3
+Joe Lee,17,yes,10,10,10
+Bob Koh, 17, no,12,10,12
+Doris Wong,16,no,15,15,10
+Albert Ee, 17, yes, 14,14,15

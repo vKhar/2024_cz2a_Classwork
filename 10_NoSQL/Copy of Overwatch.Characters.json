@@ -1,0 +1,136 @@
+[{
+  "name": "Aragon",
+  "class": "Ranger",
+  "str": "20",
+  "dex": "25",
+  "int": "20",
+  "xp": "76525",
+  "items": [
+    {
+      "id": "15",
+      "name": "+4 SWORD"
+    },
+    {
+      "id": "5",
+      "name": "+2 BOW"
+    },
+    {
+      "id": "20",
+      "name": "+2 CHAIN"
+    },
+    {
+      "id": "23",
+      "name": "TORCHES"
+    },
+    {
+      "id": "24",
+      "name": "KEYS"
+    },
+    {
+      "id": "28",
+      "name": "FOOD"
+    },
+    {
+      "id": "27",
+      "name": "HORSE"
+    }
+  ]
+},
+{
+  "name": "Freya",
+  "class": "Fighter",
+  "str": "30",
+  "dex": "15",
+  "int": "15",
+  "xp": "65270",
+  "items": [
+    {
+      "id": "10",
+      "name": "2H SWORD"
+    },
+    {
+      "id": "21",
+      "name": "+2 PLATE"
+    },
+    {
+      "id": "27",
+      "name": "HORSE"
+    },
+    {
+      "id": "30",
+      "name": "MARK OF FORCE"
+    },
+    {
+      "id": "32",
+      "name": "MARK OF KINGS"
+    }
+  ]
+},
+{
+  "name": "Loki",
+  "class": "Mage",
+  "str": "15",
+  "dex": "25",
+  "int": "25",
+  "xp": "91435",
+  "items": [
+    {
+      "id": "7",
+      "name": "EXOTIC WEAPON"
+    },
+    {
+      "id": "22",
+      "name": "EXOTIC"
+    },
+    {
+      "id": "25",
+      "name": "GEMS"
+    },
+    {
+      "id": "26",
+      "name": "POWDER"
+    },
+    {
+      "id": "27",
+      "name": "HORSE"
+    },
+    {
+      "id": "29",
+      "name": "MARK OF SNAKE"
+    },
+    {
+      "id": "33",
+      "name": "LORD OF TIME"
+    },
+    {
+      "id": "34",
+      "name": "DEATH CARD"
+    }
+  ]
+},
+{
+  "name": "Bane",
+  "class": "Deathknight",
+  "str": "25",
+  "dex": "25",
+  "int": "15",
+  "xp": "59250",
+  "items": [
+    {
+      "id": "15",
+      "name": "+4 SWORD"
+    },
+    {
+      "id": "21",
+      "name": "+2 PLATE"
+    },
+    {
+      "id": "27",
+      "name": "HORSE"
+    },
+    {
+      "id": "37",
+      "name": "MOONS CARD"
+    }
+  ]
+}]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Template Example</title>
+    <style>
+        div {
+            border: black 1px solid;
+            margin: 1em auto;
+            padding: 1em 1em;
+            width: 50%;
+            background-color: azure;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div> My Class is : {{ my_class }} </div>
+    <div>
+            {% if my_class == '24SH09' %}
+                It's a Great Class
+            {%elif my_class == '23SH09' %}
+                Its a OK Class !
+            {% else %}
+                No Idea !
+            {% endif %}
+    </div>
+
+        <p>Loop through the list:</p>
+        <ul>
+            {% for teacher in my_list %}
+                <li>{{ teacher }}</li>
+            {% endfor %}
+        </ul>
+
+</body>
+</html>

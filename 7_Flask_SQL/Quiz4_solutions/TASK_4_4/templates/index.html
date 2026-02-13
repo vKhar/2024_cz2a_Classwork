@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Books Not Returned </title>
+    </head>
+
+    <body>
+        
+	<table border=1px>
+  		<tr>
+    		<th> Family Name </th>
+    		<th> Given Name </th>
+    		<th> Book Title </th>
+  		</tr>
+
+
+		{% for info in data %}
+
+		<tr>
+    		<td> {{info[0]}} </td>
+    		<td> {{info[1]}} </td>
+    		<td> {{info[2]}} </td>
+  		</tr>
+
+		{% endfor %}
+
+	</table>
+
+      
+    </body>
+
+</html>
+

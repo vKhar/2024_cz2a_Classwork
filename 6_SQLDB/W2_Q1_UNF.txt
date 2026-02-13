@@ -1,0 +1,1 @@
+BokingNum,HotelName,Address,Rating, (23/06/2016, Front-facing double,2,80), (23/06/2016, Rear-facing double,1,65), (24/06/2016, Front-facing double,2,80)

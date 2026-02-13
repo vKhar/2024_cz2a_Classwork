@@ -1,0 +1,31 @@
+<html>
+<head>
+    <style>
+        table {
+            width: 50%;
+            margin: 1em auto;
+            border-collapse: collapse;
+            }
+        td, th{
+            padding:0.5em;
+            vertical-align:top;
+            border:solid;
+            text-align: center;
+            }
+    </style>
+    
+</head>
+<body>
+<h3>Table Template</h3>
+    <table>
+        {% for row in grid %}
+        <tr>
+            {% for col in row %}
+                <td bgcolor="{{ col }}"></td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>
