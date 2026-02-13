@@ -1,0 +1,6 @@
+# Ignore revision materials
+20_Revisions/A Levels Classified/
+20_Revisions/Revision Package SH2/
+
+# Ignore Google Docs files
+*.gdoc
